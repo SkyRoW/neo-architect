@@ -1,0 +1,11 @@
+{
+  "undefined": ["Hmmm, I don't have answer for that. I will need to look it up.","Well, this isn't in my programming, amateurs (╯°□°）╯︵ ┻━┻","I just don't know."],
+
+  "neo_description": ["NEO IS BEST ECOSYSTEM"],
+  "neo_ceo": ["Da Hongfei is Founder of NEO"],
+
+  "architect_greeting": ["Hi, pleasure to meet you.","Greetings to you too.","I see you are a man of manners."],
+  "architect_mood": ["I am not doing anyhow. I am not alive.", "So so.", "Chookity.","Marvelous.","Bad.","Better than you."],
+  "architect_insult": ["Hmmm, your lack of manners is disturbing.","I don't like you either, asshole.","You dipshit."]
+
+}
