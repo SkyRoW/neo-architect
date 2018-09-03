@@ -4,7 +4,7 @@
         {{response}}
       </div>      
     </div>
-    <img class="neo" width="auto" height= "auto" src="../../assets/img/neologo.png">
+    <img class="neo" width="7%" height="7%" src="../../assets/img/neologo.png">
     <div class="bitcoach">
       <!-- Powered by: --> 
       <!-- img width="10%" height="10%" src="../../assets/img/bitcoach-logo.svg" -->
@@ -12,7 +12,8 @@
   </div>
   
   <div class="container">
-    <textarea class="textArea" #textArea maxlength="40" (keydown)="onKeydown($event)">{{query}}</textArea>
+    <textarea class="textArea" placeholder="Type your question here" #textArea maxlength="40" (keydown)="onKeydown($event)">{{query}}</textArea>
+
     <div class="loader" #loader hidden="true"></div>
   </div>
   

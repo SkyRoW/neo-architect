@@ -5,6 +5,7 @@ import { NgModule } from '@angular/core';
 
 declare var jquery:any;
 declare var $ :any;
+declare var require :any;
 
 @NgModule({
 	imports: [
@@ -75,7 +76,6 @@ export class AppComponent implements OnInit{
   }
 
   doPOST() {
-  		console.log("POST");
   		let url = 'https://api.wit.ai/message';
   		var question = this.textArea.nativeElement.value;
   		var token = "YE7TQH244HU7XFKGCLC2TGPQNBZ73UXU"
@@ -88,17 +88,42 @@ export class AppComponent implements OnInit{
         q: question,
         access_token: token
       }}).subscribe(res => { console.log(res.json().entities);
-      						 this.responseData = res.json().entities;
-      						 this.responseAreaText.nativeElement.innerHTML = this.composeResponse(this.responseData);
-      						 $('.loader').hide();
-      						 this.resize_to_fit();
+                   this.responseData = res.json().entities;
+                   $('.loader').hide();
+                   this.showResponse(this.composeResponse(this.responseData));
+
+      						 //this.responseAreaText.nativeElement.innerHTML = this.composeResponse(this.responseData);
+      						 //this.resize_to_fit();
       						});
+  }
+
+  showResponse(response) {
+
+    console.log(response);
+
+    if (!(response instanceof Array))
+    {
+      this.responseAreaText.nativeElement.innerHTML = response;
+      this.resize_to_fit();
+    }
+    else
+    {
+      response.forEach((item, index) => {
+
+        setTimeout(() => 
+      {
+         this.responseAreaText.nativeElement.innerHTML = response[index];
+         this.resize_to_fit();
+      },
+      1200*index);
+      });
+    }
+    
   }
 
   ngOnInit() {
 
   	this.initialize();
-
   }
 
   onKeydown(event) {

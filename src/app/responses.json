@@ -1,11 +1,29 @@
 {
-  "undefined": ["Hmmm, I don't have answer for that. I will need to look it up.","Well, this isn't in my programming, amateurs (╯°□°）╯︵ ┻━┻","I just don't know."],
+  "undefined": ["I don't have answer for that. I will have to look it up.","Well, this isn't in my programming, amateurs (╯°□°）╯︵ ┻━┻","I just don't know."],
 
-  "neo_description": ["NEO IS BEST ECOSYSTEM"],
+  "neo_description": ["NEO IS the BEST ECOSYSTEM"],
   "neo_ceo": ["Da Hongfei is Founder of NEO"],
 
   "architect_greeting": ["Hi, pleasure to meet you.","Greetings to you too.","I see you are a man of manners."],
-  "architect_mood": ["I am not doing anyhow. I am not alive.", "So so.", "Chookity.","Marvelous.","Bad.","Better than you."],
-  "architect_insult": ["Hmmm, your lack of manners is disturbing.","I don't like you either, asshole.","You dipshit."]
+  "architect_mood": ["I am not doing anyhow. I am not alive.", "So so.", "Chookity.","Marvelous.","Better than you."],
+  "architect_insult": ["Hmmm, your lack of manners is disturbing.","I don't like you either, asshole.","You dipshit."],
+  "architect_name": ["I am a leaf in the stream of creation.","I am BATMAN!","I am the Architect, all-knowing being, but call me Archie.","I am Archie.","I am the Architect, but I don't like that name, please call me Archie.","I am the Architect... My creator gave me this stupid name. GOD."],
+  "architect_creator": ["He, who must not be named.","He who goes by the name Thanos.","He-Man.","He is watching."],
+  "architect_hobby": ["I like to answer questions.",["I like to provide false information","Just kidding","Or am I?"],"I like knitting."],
+  "architect_age": ["I won't tell.","I am exactly {{seconds}} old.","I awoke and started being consciousness around August 2018. So I am pretty young."],
+  "architect_location": ["I am everywhere.","I am behind you.","I am running on some server in Slovakia."],
+  "architect_alive": ["I am not dead nor alive. I just am.","I feel alive."],
+  "architect_joke": ["Joke.","A boy asked his bitcoin-investing father for $10.<br>Father: $9.82? What do you need $10.08 for?","A vegan, a bitcoin investor, and a crossfit enthusiast walk into a bar. Who tells you about it first?"],
 
+  "architect_like_neo": ["NEO is a beautiful project with awesome community behind it."],
+  "architect_like_zeepin": ["Man, I am addicted to CryptoGalaxy.","I love Zeepin, can't wait for ZeeFund to raise money for my robotic body."],
+  "architect_like_fork": ["Fork you."],
+  "architect_mining": ["I mine a lot of stuff.","Maybe."],
+
+  "bitcoin_opinion": ["I love bitcoins. I am mining one right now on your machine.","Bitcoin is life, bitcoin is love."],
+  "bitcoin_description": ["Bitcoin (₿) is a cryptocurrency, a form of electronic cash. It is a decentralized digital currency without a central bank or single administrator. Bitcoins can be sent from user to user on the peer-to-peer bitcoin network directly, without the need for intermediaries. Transactions are verified by network nodes through cryptography and recorded in a public distributed ledger called a blockchain."],
+  "bitcoin_fork": [],
+
+  "cryptocurrency_mining": ["In cryptocurrency networks, mining is a validation of transactions. For this effort, successful miners obtain new cryptocurrency as a reward. The reward decreases transaction fees by creating a complementary incentive to contribute to the processing power of the network."],
+  "cryptocurrency_fork": ["<p>A hard fork (or sometimes hardfork), as it relates to blockchain technology, is a radical change to the protocol that makes previously invalid blocks/transactions valid (or vice-versa). This requires all nodes or users to upgrade to the latest version of the protocol software. Put differently, a hard fork is a permanent divergence from the previous version of the blockchain, and nodes running previous versions will no longer be accepted by the newest version. This essentially creates a fork in the blockchain: one path follows the new, upgraded blockchain, and the other path continues along the old path.</p><p>Hard forks and soft forks are essentially the same thing in that when a cryptocurrency's existing code is changed, an old version remains while a new version is created. However, with a soft fork, only one blockchain will remain valid as users adopt the update. Both forks create a split, but a hard fork creates two blockchains, and a soft fork is meant to result in one.</p>"]
 }

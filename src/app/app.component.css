@@ -192,12 +192,13 @@
 	position: relative;
 	float: right;
 	border: 6px solid #40e840;
-	border-radius: 50%;
+	border-radius: 80%;
 	border-top: 6px solid #f2fff4;
 	width: 60px;
 	height: 60px;
-	-webkit-animation: spin 2s linear infinite; /* Safari */
-	animation: spin 2s linear infinite;
+	-webkit-animation: spin 1s linear infinite; /* Safari */
+	animation: spin 1s linear infinite;
+
 }
 
 /* Safari */
@@ -215,4 +216,19 @@ body {
 	background-color: #f2fff4;
 	overflow-y: hidden;
 	overflow-x: hidden;
+}
+
+::placeholder {
+	color: "dce8de";
+    opacity: 0.1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: "dce8de";
+   opacity: 0.1;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: "dce8de";
+   opacity: 0.1;
 }
